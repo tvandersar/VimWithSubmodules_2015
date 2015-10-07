@@ -1,0 +1,18 @@
+Installation:
+
+    1) install vim
+    2) delete _vimrc
+    3) clone online repo using
+    git clone ...    
+
+Create symlinks in cmd:
+    
+    cd "c:Program Files (x86)\Vim"
+    mklink /H ~Vim\_vimrc vimfiles\_vimrc    
+
+Switch to the vimfiles directory, and fetch submodules:
+
+    cd vimfiles
+    git submodule init
+    git submodule update
+
