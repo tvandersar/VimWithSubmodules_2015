@@ -1,0 +1,6 @@
+[submodule "Align"]
+	path = Align
+	url = https://github.com/vim-scripts/Align.git
+[submodule "bundle/Align"]
+	path = bundle/Align
+	url = https://github.com/vim-scripts/Align.git
