@@ -2,13 +2,14 @@ Installation:
 
     1) install vim
     2) delete _vimrc
+    3) cd into vimfiles
     3) clone online repo using
-    git clone ...    
+    git clone https://github.com/tvandersar/VimWithSubmodules_2015.git    
 
 Create symlinks in cmd:
     
     cd "c:Program Files (x86)\Vim"
-    mklink /H ~Vim\_vimrc vimfiles\_vimrc    
+    mklink /H "c:Program Files (x86)\Vim\_vimrc" "c:Program Files (x86)\Vim\vimfiles\_vimrc"
 
 Switch to the vimfiles directory, and fetch submodules:
 
